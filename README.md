@@ -10,18 +10,27 @@ Para evitar los obstáculos el carrito tendrá en cuenta en qué parte de su rec
 Requisitos funcionales
 
 •	Para comunicarle al dispositivo la distancia AB, se desarrollará un control que envíe de forma inalámbrica esta información al dispositivo.
+
 •	El control debe estar diseñado con un teclado matricial 4*4, con el que se ingresará las distancia hacia adelante, derecha ó izquierda, y además con un botón del mismo teclado se indicará que ya se puede empezar el recorrido. Además, el mismo control debe tener 4 dispalys de 7 segmentos en los que se verán las distancias que se le están enviando al carrito.
+
 •	El dispositivo debe tener la capacidad de diferenciar la dirección en la que se está moviendo (adelante, atrás, derecha, izquierda). Este no tendrá la capacidad de moverse en diagonal.
+
 •	Para que el dispositivo llegue al punto B de forma correcta, debe tener en cuenta la distancia que se mueve en cada dirección
+
 •	Cuando el carrito llegue al destino, este se detendrá y depositará el paquete. 
+
 •	Una vez se deposite el paquete, hará un giro en 180° y retornará al punto A, esquivando los obstáculos que se puedan presentar nuevamente en su camino.
 
 Requisitos no funcionales
 
 •	Principalmente, el dispositivo debe ser capaz de proporcionarle a los usuarios la comodidad de no tener que moverse del lugar en el que están para poder intercambiar objetos.
+
 •	El dispositivo debe ser capaz de transportar objetos cuyo peso no sea mayor a 1kg
+
 •	Como se desea que el dispositivo sea capaz de transportar objetos en un entorno pequeño (hogar, oficina, etc…) el error en la distancia AB que se manejará rondará los 10 cm.
+
 •	El dispositivo debe ser capaz de detectar un obstáculo a una distancia de alrededor 15 cm para que pueda cambiar su dirección si riesgos de chocar.
+
 •	La interfaz de usuario en el control es intuitiva para que el usuario pueda ingresar las distancias y enviar el carrito sin ningún problema.
 
 Escenario de pruebas
@@ -31,12 +40,20 @@ El escenario de pruebas para el dispositivo debe ser un lugar cuyo espacio sea s
 Costos
 
 dispaly 7 segmentos x3 $4000
+
 3 botones $3000
+
 Circuito impreso para el control $15000
+
 Raspberry pi pico * 2 $34000 cu
+
 Base del auto con llantas $40000
+
 Sensor ultrasonido $8000
+
 4 motorreductores $40000
+
 Baterías del carrito $36000
+
 total $214000
 
