@@ -57,3 +57,58 @@ Baterías del carrito $36000
 
 total $214000
 
+
+Funciones de los integrantes de grupo.
+
+David Flórez:
+
+-        Diseño y codificación del código con el que el navegador se va a desplazar desde el punto A hasta el punto B - Tarea 1
+
+-        Diseño y codificación del código para la activación de la rampa - Tarea 4
+
+-        Montaje del cascaron del carrito junto con el microcontrolador, sensores y rampa - Tarea 7
+
+-        Pruebas, ajustes - Tarea 8
+
+Cristian Ibarra:
+
+-        Diseño y codificación del código para el teclado matricial - Tarea 2
+
+-        Diseño y codificación del código de la comunicación entre control y carrito - Tarea 3.
+
+-        Montaje del control Tarea 5.
+
+-        Diseño e implementación de la parte de potencia del carrito - Tarea 6.
+
+-        Pruebas, ajustes – Tarea 8.
+
+Las tareas corresponden al cronograma de la pagina siguiente.
+
+
+Cronograma:
+
+![image](https://github.com/user-attachments/assets/2b72a8bc-7214-4870-9cdb-84e061232fe1)
+
+
+Cambios realizados respecto a la segunda ronda:
+
+-        Para la segunda entrega se cambió el nombre del carrito de “Navegado Autónomo” a “PicoCar”
+
+-        Ahora, se estableció usar no un sensor de ultra sonido, sino 3, esto con el fin de detectar los obstáculos y rodearlos, así, será mas fácil mantener la ruta hasta B
+
+-        Se tuvo en cuenta un circuito Puente H para realizar los cambios de dirección
+
+-        Se agregó la función de que el carrito deje el objeto en el punto B haciendo uso de una rampa, esto con el fin de que el carrito pueda volver el punto inicial esquivando obstáculos.
+
+-        Para la segunda entrega se estableció cómo va a ser el control con el que se comunicará el carrito.
+
+-        Para el desarrollo del control se decidió usar otra Raspberry Pi Pico W
+
+
+
+
+
+
+
+
+
